@@ -1,0 +1,50 @@
+{
+    "name": "larapie/transformer",
+    "description": "Extending the functionality of laravel api resources.",
+    "keywords": [
+        "larapie",
+        "transformer",
+        "resource",
+        "rest",
+        "api",
+        "laravel",
+        "php"
+    ],
+    "homepage": "https://github.com/larapie/transformer",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anthony Vancauwenberghe",
+            "email": "anthony.vanc@gmail.com",
+            "homepage": "https://github.com/larapie",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "laravel/framework": "^5.8",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^3.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Larapie\\Transformer\\": "src"
+        }
+    },
+
+    "autoload-dev": {
+        "psr-4": {
+            "Larapie\\Transformer\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
