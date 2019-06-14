@@ -1,15 +1,11 @@
 <?php
 
 
-namespace Larapie\Transformer\Tests\Redone;
+namespace Larapie\Transformer\Tests\Classes;
 
+use Larapie\Transformer\Transformer;
 
-use Larapie\Transformer\Redone\RedoneTransformer;
-use Larapie\Transformer\Tests\Classes\HelloKitty;
-use Larapie\Transformer\Tests\Classes\HelloKittyFriend;
-use Larapie\Transformer\Tests\Classes\HelloKittyFriendTransformer;
-
-class HelloKittyTransformer extends RedoneTransformer
+class HelloKittyTransformer extends Transformer
 {
     public $relations = [
         "friend" => HelloKittyFriendTransformer::class

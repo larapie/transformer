@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Larapie\Transformer\Redone;
+namespace Larapie\Transformer;
 
 
 use Illuminate\Http\Resources\Json\JsonResource;

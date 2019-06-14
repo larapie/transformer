@@ -8,7 +8,7 @@ use Larapie\Transformer\Transformer;
 
 class AModelTransformer extends Transformer
 {
-    public function toArray(AModel $model)
+    public function transform(AModel $model)
     {
         return [
             "test" => $model->test,

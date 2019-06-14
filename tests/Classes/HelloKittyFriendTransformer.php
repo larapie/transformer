@@ -3,9 +3,9 @@
 
 namespace Larapie\Transformer\Tests\Classes;
 
-use Larapie\Transformer\Redone\RedoneTransformer;
+use Larapie\Transformer\Transformer;
 
-class HelloKittyFriendTransformer extends RedoneTransformer
+class HelloKittyFriendTransformer extends Transformer
 {
     public function transform(HelloKittyFriend $model)
     {

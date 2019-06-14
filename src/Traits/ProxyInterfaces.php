@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Larapie\Transformer\Redone\Traits;
+namespace Larapie\Transformer\Traits;
 
 
 trait ProxyInterfaces
