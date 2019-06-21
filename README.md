@@ -15,10 +15,6 @@ composer require larapie/transformer
 
 ## Documentation TODO
 
-## Future
-
-- Implement a feature that allows the guard handler to handle OR statements.
-
 ### Changelog
 
 Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
