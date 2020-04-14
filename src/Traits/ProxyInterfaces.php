@@ -53,6 +53,19 @@ trait ProxyInterfaces
     {
         $this->resource->resolveRouteBinding($value);
     }
+    
+     /**
+     * Retrieve the child model for a bound value.
+     *
+     * @param  string  $childType
+     * @param  mixed  $value
+     * @param  string|null  $field
+     * @return \Illuminate\Database\Eloquent\Model|null
+     */
+    public function resolveChildRouteBinding($childType, $value, $field)
+    {
+        $this->resource->resolveChildRouteBinding($childType, $value, $field);
+    }
 
     public function jsonSerialize()
     {
