@@ -49,7 +49,7 @@ trait ProxyInterfaces
      *
      * @throws \Exception
      */
-    public function resolveRouteBinding($value)
+    public function resolveRouteBinding($value, $field=null)
     {
         $this->resource->resolveRouteBinding($value);
     }
